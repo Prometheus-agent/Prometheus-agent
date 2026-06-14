@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/codex-supervisor",
+  "name": "@prometheus/codex-supervisor",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw Codex app-server fleet supervision plugin.",
@@ -11,7 +11,7 @@
     "zod": "4.4.3"
   },
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

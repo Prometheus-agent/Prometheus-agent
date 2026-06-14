@@ -1,11 +1,11 @@
 {
-  "name": "@openclaw/novita-provider",
+  "name": "@prometheus/novita-provider",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw NovitaAI provider plugin",
   "type": "module",
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

@@ -218,12 +218,12 @@ function shouldAlwaysBundleDependency(id: string): boolean {
   return (
     id === "@openclaw/fs-safe" ||
     id.startsWith("@openclaw/fs-safe/") ||
-    id === "@openclaw/normalization-core" ||
-    id.startsWith("@openclaw/normalization-core/") ||
-    id === "@openclaw/media-core" ||
-    id.startsWith("@openclaw/media-core/") ||
-    id === "@openclaw/acp-core" ||
-    id.startsWith("@openclaw/acp-core/") ||
+    id === "@prometheus/normalization-core" ||
+    id.startsWith("@prometheus/normalization-core/") ||
+    id === "@prometheus/media-core" ||
+    id.startsWith("@prometheus/media-core/") ||
+    id === "@prometheus/acp-core" ||
+    id.startsWith("@prometheus/acp-core/") ||
     id === "zod" ||
     id.startsWith("zod/")
   );
@@ -564,11 +564,11 @@ function buildLlmRuntimeDistEntries(): Record<string, string> {
 
 function shouldExternalizeAgentCoreDependency(id: string): boolean {
   return (
-    id === "@openclaw/llm-core" ||
-    id.startsWith("@openclaw/llm-core/") ||
+    id === "@prometheus/llm-core" ||
+    id.startsWith("@prometheus/llm-core/") ||
     id === "ignore" ||
-    id === "openclaw" ||
-    id.startsWith("openclaw/") ||
+    id === "prometheus" ||
+    id.startsWith("prometheus/") ||
     id === "typebox" ||
     id.startsWith("typebox/") ||
     id === "yaml" ||
@@ -584,8 +584,8 @@ function shouldExternalizeGatewayClientDependency(id: string): boolean {
   return (
     id === "ws" ||
     id.startsWith("ws/") ||
-    id === "@openclaw/gateway-protocol" ||
-    id.startsWith("@openclaw/gateway-protocol/")
+    id === "@prometheus/gateway-protocol" ||
+    id.startsWith("@prometheus/gateway-protocol/")
   );
 }
 
@@ -594,7 +594,7 @@ function shouldExternalizeNetPolicyDependency(id: string): boolean {
 }
 
 function shouldExternalizeSpeechCoreDependency(id: string): boolean {
-  return id === "openclaw" || id.startsWith("openclaw/");
+  return id === "prometheus" || id.startsWith("prometheus/");
 }
 
 function shouldExternalizeLlmCoreDependency(id: string): boolean {
@@ -602,7 +602,7 @@ function shouldExternalizeLlmCoreDependency(id: string): boolean {
 }
 
 function shouldExternalizeLlmRuntimeDependency(id: string): boolean {
-  return id === "@openclaw/llm-core" || id.startsWith("@openclaw/llm-core/");
+  return id === "@prometheus/llm-core" || id.startsWith("@prometheus/llm-core/");
 }
 
 function shouldExternalizeMarkdownCoreDependency(id: string): boolean {

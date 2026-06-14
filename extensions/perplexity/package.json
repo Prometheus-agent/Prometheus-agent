@@ -1,11 +1,11 @@
 {
-  "name": "@openclaw/perplexity-plugin",
+  "name": "@prometheus/perplexity-plugin",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw Perplexity plugin",
   "type": "module",
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

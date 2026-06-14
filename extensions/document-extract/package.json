@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/document-extract-plugin",
+  "name": "@prometheus/document-extract-plugin",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw local document extraction plugin",
@@ -8,7 +8,7 @@
     "clawpdf": "0.3.0"
   },
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

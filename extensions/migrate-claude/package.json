@@ -1,11 +1,11 @@
 {
-  "name": "@openclaw/migrate-claude",
+  "name": "@prometheus/migrate-claude",
   "version": "2026.6.2",
   "private": true,
   "description": "Claude to OpenClaw migration provider",
   "type": "module",
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*",
+    "@prometheus/plugin-sdk": "workspace:*",
     "openclaw": "2026.5.28"
   },
   "peerDependencies": {

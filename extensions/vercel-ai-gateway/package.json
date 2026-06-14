@@ -1,11 +1,11 @@
 {
-  "name": "@openclaw/vercel-ai-gateway-provider",
+  "name": "@prometheus/vercel-ai-gateway-provider",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw Vercel AI Gateway provider plugin",
   "type": "module",
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

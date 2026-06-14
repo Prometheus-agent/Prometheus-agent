@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/copilot",
+  "name": "@prometheus/copilot",
   "version": "2026.6.2",
   "description": "OpenClaw GitHub Copilot agent runtime plugin (registers a `github-copilot` AgentHarness backed by @github/copilot-sdk over JSON-RPC to the GitHub Copilot CLI)",
   "repository": {
@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@github/copilot": "1.0.55",
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [
@@ -20,7 +20,7 @@
     ],
     "install": {
       "clawhubSpec": "clawhub:@openclaw/copilot",
-      "npmSpec": "@openclaw/copilot",
+      "npmSpec": "@prometheus/copilot",
       "defaultChoice": "npm",
       "minHostVersion": ">=2026.5.28"
     },

@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/web-readability-plugin",
+  "name": "@prometheus/web-readability-plugin",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw local Readability web extraction plugin",
@@ -9,7 +9,7 @@
     "linkedom": "0.18.12"
   },
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

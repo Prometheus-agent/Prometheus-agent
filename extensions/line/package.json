@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/line",
+  "name": "@prometheus/line",
   "version": "2026.6.2",
   "description": "OpenClaw LINE channel plugin for LINE Bot API chats.",
   "repository": {
@@ -12,7 +12,7 @@
     "zod": "4.4.3"
   },
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*",
+    "@prometheus/plugin-sdk": "workspace:*",
     "openclaw": "2026.5.28"
   },
   "peerDependencies": {
@@ -41,7 +41,7 @@
       "quickstartAllowFrom": true
     },
     "install": {
-      "npmSpec": "@openclaw/line",
+      "npmSpec": "@prometheus/line",
       "defaultChoice": "npm",
       "minHostVersion": ">=2026.4.10"
     },

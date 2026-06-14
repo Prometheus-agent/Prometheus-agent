@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/memory-wiki",
+  "name": "@prometheus/memory-wiki",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw persistent wiki plugin",
@@ -10,7 +10,7 @@
     "zod": "4.4.3"
   },
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*",
+    "@prometheus/plugin-sdk": "workspace:*",
     "openclaw": "2026.5.28"
   },
   "peerDependencies": {

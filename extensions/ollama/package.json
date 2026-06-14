@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/ollama-provider",
+  "name": "@prometheus/ollama-provider",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw Ollama provider plugin",
@@ -8,7 +8,7 @@
     "typebox": "1.1.39"
   },
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

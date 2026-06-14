@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/qqbot",
+  "name": "@prometheus/qqbot",
   "version": "2026.6.2",
   "private": false,
   "description": "OpenClaw QQ Bot channel plugin for group and direct-message workflows.",
@@ -16,7 +16,7 @@
     "zod": "4.4.3"
   },
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*",
+    "@prometheus/plugin-sdk": "workspace:*",
     "@types/ws": "8.18.1",
     "openclaw": "2026.5.28"
   },
@@ -44,7 +44,7 @@
       "systemImage": "bubble.left.and.bubble.right"
     },
     "install": {
-      "npmSpec": "@openclaw/qqbot",
+      "npmSpec": "@prometheus/qqbot",
       "localPath": "extensions/qqbot",
       "defaultChoice": "npm",
       "minHostVersion": ">=2026.4.10"

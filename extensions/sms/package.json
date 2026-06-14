@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/sms",
+  "name": "@prometheus/sms",
   "version": "2026.6.2",
   "description": "OpenClaw SMS channel plugin for Twilio text messages.",
   "repository": {
@@ -12,7 +12,7 @@
     "zod": "4.4.3"
   },
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

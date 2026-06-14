@@ -1,11 +1,11 @@
 {
-  "name": "@openclaw/fireworks-provider",
+  "name": "@prometheus/fireworks-provider",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw Fireworks provider plugin",
   "type": "module",
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/discord",
+  "name": "@prometheus/discord",
   "version": "2026.6.2",
   "description": "OpenClaw Discord channel plugin for channels, DMs, commands, and app events.",
   "repository": {
@@ -16,7 +16,7 @@
     "ws": "8.21.0"
   },
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*",
+    "@prometheus/plugin-sdk": "workspace:*",
     "openclaw": "2026.5.28"
   },
   "peerDependencies": {
@@ -61,7 +61,7 @@
       }
     },
     "install": {
-      "npmSpec": "@openclaw/discord",
+      "npmSpec": "@prometheus/discord",
       "defaultChoice": "npm",
       "minHostVersion": ">=2026.5.26",
       "allowInvalidConfigRecovery": true

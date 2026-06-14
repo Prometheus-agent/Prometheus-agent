@@ -182,6 +182,7 @@ package-lock.json
 !src/commands/copilot-sdk-install-manifest/package-lock.json
 .claude/
 .agent/
+@.claude/
 skills-lock.json
 
 # Local iOS signing overrides

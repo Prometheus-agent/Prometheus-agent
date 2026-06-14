@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/msteams",
+  "name": "@prometheus/msteams",
   "version": "2026.6.2",
   "description": "OpenClaw Microsoft Teams channel plugin for bot conversations.",
   "repository": {
@@ -15,7 +15,7 @@
     "typebox": "1.1.39"
   },
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*",
+    "@prometheus/plugin-sdk": "workspace:*",
     "jose": "6.2.3",
     "openclaw": "2026.5.28"
   },
@@ -51,7 +51,7 @@
       }
     },
     "install": {
-      "npmSpec": "@openclaw/msteams",
+      "npmSpec": "@prometheus/msteams",
       "defaultChoice": "npm",
       "minHostVersion": ">=2026.4.10"
     },

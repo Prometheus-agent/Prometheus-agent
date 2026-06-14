@@ -1,11 +1,11 @@
 {
-  "name": "@openclaw/deepgram-provider",
+  "name": "@prometheus/deepgram-provider",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw Deepgram media-understanding provider",
   "type": "module",
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

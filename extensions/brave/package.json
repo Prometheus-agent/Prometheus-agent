@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/brave-plugin",
+  "name": "@prometheus/brave-plugin",
   "version": "2026.6.2",
   "description": "OpenClaw Brave Search provider plugin for web search.",
   "repository": {
@@ -8,14 +8,14 @@
   },
   "type": "module",
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [
       "./index.ts"
     ],
     "install": {
-      "npmSpec": "@openclaw/brave-plugin",
+      "npmSpec": "@prometheus/brave-plugin",
       "defaultChoice": "npm",
       "minHostVersion": ">=2026.4.10",
       "allowInvalidConfigRecovery": true

@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/github-copilot-provider",
+  "name": "@prometheus/github-copilot-provider",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw GitHub Copilot provider plugin",
@@ -8,7 +8,7 @@
     "@clack/prompts": "1.4.0"
   },
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

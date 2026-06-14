@@ -1,11 +1,11 @@
 {
-  "name": "@openclaw/imessage",
+  "name": "@prometheus/imessage",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw iMessage channel plugin using imsg on a signed-in Mac",
   "type": "module",
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

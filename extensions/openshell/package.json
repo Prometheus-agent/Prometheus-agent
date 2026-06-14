@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/openshell-sandbox",
+  "name": "@prometheus/openshell-sandbox",
   "version": "2026.6.2",
   "description": "OpenClaw sandbox backend for the NVIDIA OpenShell CLI with mirrored local workspaces and SSH command execution.",
   "repository": {
@@ -11,14 +11,14 @@
     "zod": "4.4.3"
   },
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [
       "./index.ts"
     ],
     "install": {
-      "npmSpec": "@openclaw/openshell-sandbox",
+      "npmSpec": "@prometheus/openshell-sandbox",
       "defaultChoice": "npm",
       "minHostVersion": ">=2026.5.12-beta.1"
     },

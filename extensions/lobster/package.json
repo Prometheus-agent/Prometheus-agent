@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/lobster",
+  "name": "@prometheus/lobster",
   "version": "2026.6.2",
   "description": "Lobster workflow tool plugin for typed pipelines and resumable approvals.",
   "repository": {
@@ -12,14 +12,14 @@
     "typebox": "1.1.39"
   },
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [
       "./index.ts"
     ],
     "install": {
-      "npmSpec": "@openclaw/lobster",
+      "npmSpec": "@prometheus/lobster",
       "defaultChoice": "npm",
       "minHostVersion": ">=2026.4.25"
     },

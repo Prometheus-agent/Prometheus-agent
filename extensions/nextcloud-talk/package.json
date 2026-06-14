@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/nextcloud-talk",
+  "name": "@prometheus/nextcloud-talk",
   "version": "2026.6.2",
   "description": "OpenClaw Nextcloud Talk channel plugin for conversations.",
   "repository": {
@@ -8,7 +8,7 @@
   },
   "type": "module",
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*",
+    "@prometheus/plugin-sdk": "workspace:*",
     "openclaw": "2026.5.28"
   },
   "peerDependencies": {
@@ -39,7 +39,7 @@
       "quickstartAllowFrom": true
     },
     "install": {
-      "npmSpec": "@openclaw/nextcloud-talk",
+      "npmSpec": "@prometheus/nextcloud-talk",
       "defaultChoice": "npm",
       "minHostVersion": ">=2026.4.10"
     },

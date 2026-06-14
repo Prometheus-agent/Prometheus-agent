@@ -1,10 +1,10 @@
 {
-  "name": "@openclaw/irc",
+  "name": "@prometheus/irc",
   "version": "2026.6.2",
   "description": "OpenClaw IRC channel plugin",
   "type": "module",
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

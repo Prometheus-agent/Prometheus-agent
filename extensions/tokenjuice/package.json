@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/tokenjuice",
+  "name": "@prometheus/tokenjuice",
   "version": "2026.6.2",
   "description": "OpenClaw tokenjuice exec output compaction plugin",
   "repository": {
@@ -19,7 +19,7 @@
     }
   },
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*",
+    "@prometheus/plugin-sdk": "workspace:*",
     "openclaw": "2026.5.28"
   },
   "openclaw": {
@@ -28,7 +28,7 @@
     ],
     "install": {
       "clawhubSpec": "clawhub:@openclaw/tokenjuice",
-      "npmSpec": "@openclaw/tokenjuice",
+      "npmSpec": "@prometheus/tokenjuice",
       "defaultChoice": "npm",
       "minHostVersion": ">=2026.5.28"
     },

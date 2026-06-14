@@ -1,0 +1,20 @@
+{
+  "name": "@prometheus/prometheus-learning",
+  "version": "0.1.0",
+  "description": "Self-improving learning system for Prometheus — FTS5 cross-session memory, skill creator, user profiler, trajectory recorder",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0"
+  },
+  "peerDependencies": {
+    "@prometheus/sdk": "workspace:*"
+  }
+}

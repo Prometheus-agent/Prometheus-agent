@@ -1,11 +1,11 @@
 {
-  "name": "@openclaw/cloudflare-ai-gateway-provider",
+  "name": "@prometheus/cloudflare-ai-gateway-provider",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw Cloudflare AI Gateway provider plugin",
   "type": "module",
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

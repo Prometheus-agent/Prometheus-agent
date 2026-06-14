@@ -1,20 +1,24 @@
 {
-  "name": "openclaw",
-  "version": "2026.6.2",
-  "description": "Multi-channel AI gateway with extensible messaging integrations",
+  "name": "prometheus",
+  "version": "0.1.0",
+  "description": "🔥 Prometheus — The self-improving AI agent. Local-first, token-optimized, everywhere.",
   "keywords": [],
-  "homepage": "https://github.com/openclaw/openclaw#readme",
+  "homepage": "https://github.com/prometheus-ai/prometheus#readme",
   "bugs": {
-    "url": "https://github.com/openclaw/openclaw/issues"
+    "url": "https://github.com/prometheus-ai/prometheus/issues"
   },
   "license": "MIT",
-  "author": "",
+  "author": "Prometheus Contributors",
+  "publisher": "Prometheus AI",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openclaw/openclaw.git"
+    "url": "git+https://github.com/prometheus-ai/prometheus.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "bin": {
-    "openclaw": "openclaw.mjs"
+    "prometheus": "prometheus.mjs"
   },
   "directories": {
     "doc": "docs",
@@ -24,7 +28,7 @@
     "CHANGELOG.md",
     "LICENSE",
     "npm-shrinkwrap.json",
-    "openclaw.mjs",
+    "prometheus.mjs",
     "pnpm-workspace.yaml",
     "README.md",
     "THIRD_PARTY_NOTICES.md",
@@ -1423,7 +1427,7 @@
       "default": "./dist/plugin-sdk/llm.js"
     },
     "./extension-api": "./dist/extensionAPI.js",
-    "./cli-entry": "./openclaw.mjs"
+    "./cli-entry": "./prometheus.mjs"
   },
   "scripts": {
     "android:assemble": "node scripts/run-android-gradle.mjs :app:assemblePlayDebug",
@@ -1600,7 +1604,7 @@
     "mac:open": "open dist/OpenClaw.app",
     "mac:package": "bash scripts/package-mac-app.sh",
     "mac:restart": "bash scripts/restart-mac.sh",
-    "openclaw": "node scripts/run-node.mjs",
+    "prometheus": "node scripts/run-node.mjs",
     "openclaw:rpc": "node scripts/run-node.mjs agent --mode rpc --json",
     "perf:issue-78851": "node --import tsx scripts/perf/issue-78851-model-resolution.ts",
     "perf:kova:summary": "node scripts/kova-ci-summary.mjs",
@@ -1938,6 +1942,7 @@
     "@shikijs/core": "4.1.0",
     "@shikijs/engine-javascript": "4.1.0",
     "@shikijs/engine-oniguruma": "4.1.0",
+    "@types/better-sqlite3": "^7.6.13",
     "@types/cross-spawn": "6.0.6",
     "@types/express": "5.0.6",
     "@types/hosted-git-info": "3.0.5",

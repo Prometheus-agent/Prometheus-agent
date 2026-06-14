@@ -1,11 +1,11 @@
 {
-  "name": "@openclaw/xiaomi-provider",
+  "name": "@prometheus/xiaomi-provider",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw Xiaomi provider plugin",
   "type": "module",
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

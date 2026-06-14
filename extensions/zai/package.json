@@ -1,11 +1,11 @@
 {
-  "name": "@openclaw/zai-provider",
+  "name": "@prometheus/zai-provider",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw Z.AI provider plugin",
   "type": "module",
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

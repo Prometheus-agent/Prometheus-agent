@@ -1,11 +1,11 @@
 {
-  "name": "@openclaw/inworld-speech",
+  "name": "@prometheus/inworld-speech",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw Inworld speech plugin",
   "type": "module",
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

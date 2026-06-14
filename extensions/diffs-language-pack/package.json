@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/diffs-language-pack",
+  "name": "@prometheus/diffs-language-pack",
   "version": "2026.6.2",
   "description": "OpenClaw diffs viewer syntax highlighting language pack",
   "repository": {
@@ -8,14 +8,14 @@
   },
   "type": "module",
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [
       "./index.ts"
     ],
     "install": {
-      "npmSpec": "@openclaw/diffs-language-pack",
+      "npmSpec": "@prometheus/diffs-language-pack",
       "clawhubSpec": "clawhub:@openclaw/diffs-language-pack",
       "localPath": "extensions/diffs-language-pack",
       "defaultChoice": "npm",

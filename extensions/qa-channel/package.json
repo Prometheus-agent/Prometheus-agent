@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/qa-channel",
+  "name": "@prometheus/qa-channel",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw QA synthetic channel plugin",
@@ -15,7 +15,7 @@
     "zod": "4.4.3"
   },
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*",
+    "@prometheus/plugin-sdk": "workspace:*",
     "openclaw": "2026.5.28"
   },
   "peerDependencies": {

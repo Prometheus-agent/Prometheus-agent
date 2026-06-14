@@ -1,11 +1,11 @@
 {
-  "name": "@openclaw/byteplus-provider",
+  "name": "@prometheus/byteplus-provider",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw BytePlus provider plugin",
   "type": "module",
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

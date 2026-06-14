@@ -1,11 +1,11 @@
 {
-  "name": "@openclaw/microsoft-foundry",
+  "name": "@prometheus/microsoft-foundry",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw Microsoft Foundry provider plugin",
   "type": "module",
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

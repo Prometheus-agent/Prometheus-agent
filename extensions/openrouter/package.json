@@ -1,11 +1,11 @@
 {
-  "name": "@openclaw/openrouter-provider",
+  "name": "@prometheus/openrouter-provider",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw OpenRouter provider plugin",
   "type": "module",
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

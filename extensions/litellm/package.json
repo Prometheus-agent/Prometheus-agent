@@ -1,11 +1,11 @@
 {
-  "name": "@openclaw/litellm-provider",
+  "name": "@prometheus/litellm-provider",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw LiteLLM provider plugin",
   "type": "module",
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

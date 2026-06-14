@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/google-plugin",
+  "name": "@prometheus/google-plugin",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw Google plugin",
@@ -9,7 +9,7 @@
     "google-auth-library": "10.6.2"
   },
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*"
+    "@prometheus/plugin-sdk": "workspace:*"
   },
   "openclaw": {
     "extensions": [

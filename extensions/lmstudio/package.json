@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/lmstudio-provider",
+  "name": "@prometheus/lmstudio-provider",
   "version": "2026.6.2",
   "private": true,
   "description": "OpenClaw LM Studio provider plugin",

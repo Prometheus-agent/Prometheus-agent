@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/whatsapp",
+  "name": "@prometheus/whatsapp",
   "version": "2026.6.2",
   "description": "OpenClaw WhatsApp channel plugin for WhatsApp Web chats.",
   "repository": {
@@ -13,7 +13,7 @@
     "typebox": "1.1.39"
   },
   "devDependencies": {
-    "@openclaw/plugin-sdk": "workspace:*",
+    "@prometheus/plugin-sdk": "workspace:*",
     "openclaw": "2026.5.28"
   },
   "peerDependencies": {
@@ -55,7 +55,7 @@
     },
     "install": {
       "clawhubSpec": "clawhub:@openclaw/whatsapp",
-      "npmSpec": "@openclaw/whatsapp",
+      "npmSpec": "@prometheus/whatsapp",
       "defaultChoice": "clawhub",
       "minHostVersion": ">=2026.4.25"
     },
