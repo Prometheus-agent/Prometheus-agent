@@ -20,10 +20,6 @@
   "bin": {
     "prometheus": "prometheus.mjs"
   },
-  "directories": {
-    "doc": "docs",
-    "test": "test"
-  },
   "files": [
     "CHANGELOG.md",
     "LICENSE",

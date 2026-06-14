@@ -7,7 +7,7 @@ docker-compose.sandbox.yml
 dist
 dist-runtime/
 dist-sea/
-pnpm-lock.yaml
+# pnpm-lock.yaml is committed for CI reproducibility
 bun.lock
 bun.lockb
 coverage
