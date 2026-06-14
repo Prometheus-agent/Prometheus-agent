@@ -259,3 +259,6 @@ extensions/diffs-language-pack/assets/viewer-runtime.js
 /.opengrep-out/
 /.crabbox-artifacts
 .comux*
+
+# Large local cache files (OpenClaw dev tooling)
+.serena/
